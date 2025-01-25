@@ -1,0 +1,55 @@
+@use '../../../src/globals/variables.module.scss' as *;
+@use '../../../src//globals/lessons.module.scss' as *;
+
+.playground {
+  display: grid;
+  padding: 130px 75px 130px 75px;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: $charcoal-black;
+  font-size: 1.875rem;
+
+  .box01 {
+    border-radius: $box-border-radius-circle;
+    width: 60px;
+  }
+
+  .box02 {
+    border-radius: $box-border-radius-rounded;
+    width: 180px;
+  }
+
+  .box03 {
+    border-radius: $box-border-radius-rounded;
+    width: 120px;
+  }
+
+  .box04 {
+    border-radius: $box-border-radius-rounded;
+    width: 120px;
+  }
+
+  .box05 {
+    border-radius: $box-border-radius-rounded;
+    width: 250px;
+  }
+
+  .box06 {
+    border-radius: $box-border-radius-circle;
+    width: 60px;
+  }
+
+  .box07 {
+    border-radius: $box-border-radius-rounded;
+    width: 110px;
+  }
+
+  .box08 {
+    border-radius: $box-border-radius-circle;
+    width: 60px;
+  }
+}

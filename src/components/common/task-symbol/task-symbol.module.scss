@@ -1,0 +1,75 @@
+@use '../../../globals/variables.module.scss' as *;
+
+:root {
+  font-family: $font-family-text;
+  shape-rendering: geometricPrecision;
+}
+
+.add,
+.inspect,
+.edit,
+.home,
+.props,
+.reload,
+.hamburger,
+.more,
+.branch,
+.pages,
+.addPage,
+.styles {
+  filter: drop-shadow(0 0 2px $symbol-shadow);
+  vertical-align: -5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.commit,
+.sync,
+.preview,
+.responsivePreview {
+  filter: drop-shadow(0 0 2px $symbol-shadow);
+  vertical-align: -5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  width: 60px;
+  height: 20px;
+}
+
+.responsivePreview {
+  width: 6vw;
+  height: 2vw;
+  vertical-align: -0.5vw;
+}
+
+.component {
+  vertical-align: -1px;
+  margin-right: 4px;
+  margin-left: 4px;
+  width: 14px;
+  height: 14px;
+}
+
+.chevron {
+  fill: currentColor;
+  vertical-align: middle;
+  padding-bottom: 2px;
+  width: auto;
+  height: 14px;
+}
+
+.div {
+  vertical-align: middle;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  width: auto;
+  height: 12px;
+}
+
+.editMode {
+  position: relative;
+  top: 12px;
+  width: 50px;
+  height: 34px;
+}

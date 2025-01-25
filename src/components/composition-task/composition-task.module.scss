@@ -1,0 +1,19 @@
+@use '../tasks/task.module.scss' as *;
+
+.task {
+  background-color: unset;
+}
+
+.title {
+  padding-top: 0;
+  /* compensation for the top space included with the glyph */
+  transform: translateY(-7px);
+}
+
+.desc {
+  text-wrap: pretty;
+}
+
+.link {
+  text-decoration-line: underline;
+}

@@ -1,0 +1,23 @@
+@use '../../../src/globals/variables.module.scss' as *;
+@use '../../../src//globals/lessons.module.scss' as *;
+
+.playground {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px;
+
+  .glow {
+    grid-column: 10;
+    grid-row: 5;
+    display: grid;
+  }
+}

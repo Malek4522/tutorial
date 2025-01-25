@@ -1,0 +1,24 @@
+@use '../../../src/globals/variables.module.scss' as *;
+@use '../../../src//globals/lessons.module.scss' as *;
+
+.playground {
+  display: flex;
+  flex-direction: column;
+}
+
+.eye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+
+  &.top {
+    background-image: url('../../../src/assets/eye.svg');
+    background-color: $charcoal-black;
+  }
+
+  &.bottom {
+    background-image: url('../../../src/assets/eye.svg');
+    background-color: $gold-yellow;
+  }
+}

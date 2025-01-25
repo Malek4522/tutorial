@@ -1,0 +1,17 @@
+@use '../../../src/globals/variables.module.scss' as *;
+@use '../../../src//globals/lessons.module.scss' as *;
+
+.playground {
+  position: relative;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px;
+  padding: 160px 80px 160px 80px;
+  gap: 30px;
+}
+
+.icon {
+  border-radius: $box-border-radius-circle;
+  padding: 12px;
+}

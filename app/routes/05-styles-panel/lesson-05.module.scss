@@ -1,0 +1,34 @@
+@use '../../../src/globals/variables.module.scss' as *;
+@use '../../../src//globals/lessons.module.scss' as *;
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $charcoal-black;
+  border-radius: $playground-border-radius;
+  width: 400px;
+  height: 276px;
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .margin {
+      border-radius: $box-border-radius-circle;
+      font-style: italic;
+      font-weight: 800;
+      font-size: 35px;
+      width: 70px;
+      height: 70px;
+      margin: 35px;
+    }
+
+    .padding {
+      border-radius: $box-border-radius-rounded;
+      font-style: italic;
+      font-size: 20px;
+    }
+  }
+}

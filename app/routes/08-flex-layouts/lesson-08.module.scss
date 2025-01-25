@@ -1,0 +1,38 @@
+@use '../../../src/globals/variables.module.scss' as *;
+@use '../../../src//globals/lessons.module.scss' as *;
+
+.section {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 560px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 55px 50px 50px 50px;
+
+  .tag {
+    border-radius: $box-border-radius-circle;
+    padding: 2px;
+    height: 80px;
+  }
+}
+
+.circles {
+  display: flex;
+  justify-content: space-between;
+  padding: 55px 50px 58px 58px;
+  gap: 26px;
+  z-index: 1;
+
+  .circle {
+    border-radius: $box-border-radius-circle;
+    width: 64px;
+    height: 64px;
+  }
+}
