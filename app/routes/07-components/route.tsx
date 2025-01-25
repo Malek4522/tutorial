@@ -88,14 +88,14 @@ export default function Lesson07() {
                             color={getColor(0)}
                             icon="arrow"
                             className={styles.icon}
-                            iconDirection="right"
+                            iconDirection="down"
                         />
                         <Box
                             outlined
                             color={getColor(1)}
                             icon="arrow"
                             className={styles.icon}
-                            iconDirection="right"
+                            iconDirection="left"
                         />
                         <Box
                             outlined
@@ -116,21 +116,21 @@ export default function Lesson07() {
                             color={getColor(4)}
                             icon="arrow"
                             className={styles.icon}
-                            iconDirection="right"
+                            iconDirection="up"
                         />
                         <Box
                             outlined
                             color={getColor(5)}
                             icon="arrow"
                             className={styles.icon}
-                            iconDirection="left"
+                            iconDirection="up"
                         />
                         <Box
                             outlined
                             color={getColor(6)}
                             icon="arrow"
                             className={styles.icon}
-                            iconDirection="right"
+                            iconDirection="left"
                         />
                         <Box outlined color="pastelPink" icon="heart" className={styles.icon} />
                         <ConfettiFx

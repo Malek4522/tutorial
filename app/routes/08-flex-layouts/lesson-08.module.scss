@@ -25,10 +25,12 @@
 
 .circles {
   display: flex;
-  justify-content: space-between;
   padding: 55px 50px 58px 58px;
   gap: 26px;
   z-index: 1;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: start;
 
   .circle {
     border-radius: $box-border-radius-circle;

@@ -12,12 +12,14 @@
 .grid {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
   .glow {
-    grid-column: 10;
-    grid-row: 5;
     display: grid;
+    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-column-end: 5;
+    grid-column-start: 4;
+    justify-content: center;
   }
 }

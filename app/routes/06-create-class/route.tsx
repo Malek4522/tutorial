@@ -6,6 +6,8 @@ import { Task06 as Task } from '~/components/tasks/task-06';
 import styles from './lesson-06.module.scss';
 import { LessonsFooter } from '~/components/lessons-footer/lessons-footer';
 import { LESSON_05, LESSON_07 } from '~/router/config';
+import styles0 from './route.module.scss';
+import classNames from 'classnames';
 
 export default function Lesson06() {
     const [lessonSolved, setLessonSolved] = useState(false);
@@ -21,7 +23,10 @@ export default function Lesson06() {
             <div className={styles.root}>
                 <div className={styles.lesson}>
                     <Task />
-                    <div className={`${styles.playground}`} id="playground">
+                    <div
+                        className={classNames(styles.playground, styles0.newclass)}
+                        id="playground"
+                    >
                         <div className={styles.quote}>
                             “Creativity is <span>nothing but a mind set</span> free.”
                         </div>
